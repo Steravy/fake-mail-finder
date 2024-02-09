@@ -2,9 +2,6 @@
     Created by Stefan Vitoria on 2/9/24
 */
 
-/*
-    Created by Stefan Vitoria on 1/1/24
-*/
 'use client';
 
 import {ChangeEvent} from "react";

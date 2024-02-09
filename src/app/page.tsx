@@ -1,15 +1,18 @@
-import Image from "next/image";
+import SearchBar from "@/components/search";
 
 export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
 
+    return (
+        <main className="flex min-h-screen flex-col items-center p-24 grow">
 
-      <p>
-        Fake Mail Finder
-      </p>
+            <h2 className="font-semibold mt-32">
+                Fake Mail Finder
+            </h2>
 
+            <div className="w-full flex items-center justify-center ">
+                <SearchBar/>
+            </div>
 
-    </main>
-  );
+        </main>
+    );
 }

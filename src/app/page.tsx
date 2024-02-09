@@ -1,4 +1,5 @@
 import SearchBar from "@/components/search";
+import {Suspense} from "react";
 
 export default function Home() {
 
@@ -9,9 +10,11 @@ export default function Home() {
                 Fake Mail Finder
             </h2>
 
-            <div className="w-full flex items-center justify-center ">
-                <SearchBar/>
-            </div>
+            <Suspense>
+                <div className="w-full flex items-center justify-center ">
+                    <SearchBar/>
+                </div>
+            </Suspense>
 
         </main>
     );
